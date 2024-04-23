@@ -33,8 +33,9 @@ This script is particularly useful for spatial analysis projects that require pr
 ![image](https://github.com/LocNguyenTKP/Grid_Extraction/assets/66542803/378d9ea5-047f-40f9-9b8c-7b2641e7eab2)
 ![image](https://github.com/LocNguyenTKP/Grid_Extraction/assets/66542803/8fc83077-f5b9-4091-a3aa-2fb5652de1e4)
 
-## Contributing
-Contributions to this project are welcome. Please fork the repository and submit a pull request with your suggested changes.
+## Utility of the Script
+This script is invaluable for projects where understanding the accessibility of infrastructure (like electricity grids) relative to specific locations is crucial. It can be used in urban planning, resource management, or any field requiring detailed spatial analysis of infrastructure coverage.
+By using this script, analysts and planners can identify areas with sufficient infrastructure coverage and prioritize areas that need development or intervention, thereby aiding in efficient resource allocation and planning.
 
 ## Contact
 For any queries or further collaboration, feel free to contact Loc Nguyen nguyenloctkp@gmail.com.
