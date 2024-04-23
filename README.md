@@ -2,13 +2,17 @@
 
 # Grid_Extraction
 
-This Python script provides a comprehensive solution for manipulating geographic data specific to grid and region shapefiles. It primarily uses the Geopandas library along with Shapely for geometric operations. Key functionalities include:
+This Python script utilizes Geopandas and Shapely to perform spatial analysis on point data from a CSV file and grid data from shapefiles. The goal is to determine which points lie within a 5km radius of a grid (e.g., an electricity grid). Maps the intersection results back to the original points data, labeling each point with 'Yes' if it has grid within 5km, or 'No' if it does not.
+
 ## Installation of Necessary Libraries:
 Automates the setup by installing Geopandas and Shapely.
 ![image](https://github.com/LocNguyenTKP/Grid_Extraction/assets/66542803/2f9f4606-0260-4482-b84a-a745fe9a2ab6)
 
 ## Data Loading: 
 Loads grid and region shapefiles from specified directories.
+![image](https://github.com/LocNguyenTKP/Grid_Extraction/assets/66542803/cdc0ea73-e749-4e5c-8df5-18f263969a2e)
+![image](https://github.com/LocNguyenTKP/Grid_Extraction/assets/66542803/a3e3eff4-0712-457a-81d7-70f8baf6e8b2)
+
 ## Data Clipping and CRS Alignment: 
 Ensures that Coordinate Reference Systems (CRS) match across datasets, and clips grid data based on regional boundaries.
 ## Data Concatenation: 
