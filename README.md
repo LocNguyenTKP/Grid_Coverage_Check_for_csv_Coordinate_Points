@@ -5,6 +5,8 @@
 This Python script provides a comprehensive solution for manipulating geographic data specific to grid and region shapefiles. It primarily uses the Geopandas library along with Shapely for geometric operations. Key functionalities include:
 ## Installation of Necessary Libraries:
 Automates the setup by installing Geopandas and Shapely.
+![image](https://github.com/LocNguyenTKP/Grid_Extraction/assets/66542803/2f9f4606-0260-4482-b84a-a745fe9a2ab6)
+
 ## Data Loading: 
 Loads grid and region shapefiles from specified directories.
 ## Data Clipping and CRS Alignment: 
